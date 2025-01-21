@@ -29,9 +29,8 @@ chat_session = model.start_chat(
 )
 #
 
-## Build the Tkinter UI
+## Tkinter UI for Chat Bot
 root = tk.Tk()
-root.iconbitmap('') 
 root.title("Crustdata Chat Bot")
 root.resizable(width=False, height=False)
 root.config(bg="#171717")
