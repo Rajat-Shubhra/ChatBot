@@ -3,7 +3,7 @@ import google.generativeai as genai
 import threading
 
 ## Gemini API
-genai.configure(api_key="AIzaSyCyDN1raGh7WK2wUrt9fgMcywxypHlQMK4")
+genai.configure(api_key="PUT-YOUR-API-HERE")
 
 path = 'Crustdata_Documentation.txt'
 with open(path, "r+", encoding="utf-8") as f:
